@@ -1,0 +1,18 @@
+.intro-para {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.intro-para-2 {
+	margin-bottom: 1.5rem;
+}
+
+@media (max-width: 720px) {
+	.about-heading {
+		font-size: var(--heading-size-3);
+	}
+
+	.about-subheading {
+		font-size: var(--heading-size-5);
+	}
+}

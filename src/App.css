@@ -1,0 +1,43 @@
+:root {
+	--background-gradient: linear-gradient(-45deg, #0F172A, #0D192F, #0C1B34, #0A1D38, #081F3D, #072042, #052247, #03244B, #022650, #002855);
+	--text-color-1000: rgba(255, 255, 255, 1);
+	--text-color-900: rgba(255, 255, 255, 0.9);
+	--text-color-800: rgba(255, 255, 255, 0.8);
+	--text-color-700: rgba(255, 255, 255, 0.7);
+	--text-color-600: rgba(255, 255, 255, 0.6);
+	--text-color-500: rgba(255, 255, 255, 0.5);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100dvw;
+	height: 100dvh;
+
+	background-image: var(--background-gradient);
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+
+	font-family: "Inter", sans-serif;
+	color: var(--text-color-1000);
+}
+
+.responsive-container {
+	background-color: red;
+	min-height: 100dvh;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+
+/* Media queries */
+
+@media all and (max-width: 720px) {
+	.responsive-container {
+		width: 700px;
+	}
+}

@@ -4,6 +4,7 @@ import Lorem from "./Lorem.jsx"
 import Navbar from "./Navbar.jsx"
 import About from "./About.jsx"
 import Arrow from "./Arrow.jsx"
+import Skills from "./Skills.jsx"
 
 import "./styles/App.css"
 
@@ -15,10 +16,14 @@ export default function App() {
 			<div className="spacer"></div>
 			<About />
 
+			<div id="skills"></div>
 			<a className="resume-button" target="_blank" href="#">
 				My Resume
 				<Arrow className="arrow-svg-resume" />
 			</a>
+			<div id="skills"></div>
+			<Skills />
+
 		</div>
 	)
 }

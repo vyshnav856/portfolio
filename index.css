@@ -7,12 +7,14 @@
 	--text-color-700: rgba(255, 255, 255, 0.7);
 	--text-color-600: rgba(255, 255, 255, 0.6);
 	--text-color-500: rgba(255, 255, 255, 0.5);
+	--text-highlight-color: #0CCA4A;
 
 	--heading-size-1: 2.986rem;
 	--heading-size-2: 2.488rem;
 	--heading-size-3: 2.074rem;
 	--heading-size-4: 1.728rem;
 	--heading-size-5: 1.44rem;
+	--heading-size-6: 1.2rem;
 }
 
 * {
@@ -43,5 +45,13 @@ ul {
 }
 
 .s4, h4 {
+	font-size: 1.44rem
+}
+
+.s5, h5 {
 	font-size: 1.728rem
+}
+
+.s6, h6 {
+	font-size: 1.2rem
 }

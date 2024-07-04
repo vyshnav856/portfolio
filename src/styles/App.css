@@ -14,7 +14,7 @@ body {
 
 .responsive-container {
 	min-height: 100dvh;
-	width: 1200px;
+	width: 900px;
 	margin: 0 auto;
 }
 
@@ -50,7 +50,39 @@ body {
 	background-color: #0CCA4A;
 }
 
-@media (max-width: 1220px) {
+.section-heading {
+	font-weight: 600;
+	font-size: 1.4rem;
+}
+
+.skills-section-heading {
+	margin-top: 2rem;
+}
+
+.skills-sub-section-heading {
+	margin-top: 0.8rem;
+	font-weight: 600;
+}
+
+.aws-link {
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+	gap: 0.2rem;
+
+	transition: color 0.2s;
+}
+
+.aws-link-arrow {
+	width: 1rem;
+	color: inherit;
+}
+
+.aws-link:hover {
+	color: var(--text-highlight-color);
+}
+
+@media (max-width: 920px) {
 	.responsive-container {
 		width: 700px;
 	}

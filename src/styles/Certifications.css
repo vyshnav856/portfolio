@@ -1,0 +1,18 @@
+.certifications-container {
+	/* border: 1px solid red; */
+
+	display: flex;
+	flex-direction: column;
+	gap: 0.2rem;
+}
+
+/* .certifications- */
+
+.certifications-link {
+	text-decoration: underline;
+}
+
+.certifications-link:hover {
+	color: var(--text-highlight-color);
+	text-decoration: underline;
+}

@@ -18,70 +18,46 @@ body {
 	margin: 0 auto;
 }
 
-.spacer {
-	height: 5rem;
+.below-navbar-spacer {
+	height: 3rem;
 }
 
-.resume-button {
+.section-container {
+	/* border: 1px solid red; */
+	margin: 2rem 0;
+}
+
+.highlight-bold {
+	font-weight: 600;
+}
+
+.section-heading {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.achievements-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.achievement-link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-self: flex-start;
-	gap: 0.5rem;
-
-	color: #0CCA4A;
-	border: 2px solid #0CCA4A;
-	border-radius: 5px;
-	padding: 0.5rem 2rem;
-	font-weight: 500;
-
-	width: 12rem;
-
-	transition: color 0.2s, background-color 0.2s;
-}
-
-.arrow-svg-resume {
-	width: 1.2rem;
-	color: inherit;
-}
-
-.resume-button:hover {
-	color: var(--text-color-1000);
-	background-color: #0CCA4A;
-}
-
-.section-heading {
-	font-weight: 600;
-	font-size: 1.4rem;
-}
-
-.skills-section-heading {
-	margin-top: 2rem;
-}
-
-.skills-sub-section-heading {
-	margin-top: 0.8rem;
-	font-weight: 600;
-}
-
-.aws-link {
-	text-decoration: underline;
-	display: flex;
-	align-items: center;
 	gap: 0.2rem;
 
-	transition: color 0.2s;
+	text-decoration: underline;
 }
 
-.aws-link-arrow {
-	width: 1rem;
-	color: inherit;
-}
-
-.aws-link:hover {
+.achievement-link:hover {
 	color: var(--text-highlight-color);
+	text-decoration: underline;
 }
 
+/* Media queries */
 @media (max-width: 920px) {
 	.responsive-container {
 		width: 700px;
@@ -93,7 +69,7 @@ body {
 		width: 300px;
 	}
 
-	.spacer {
-		height: 4rem;
+	.below-navbar-spacer {
+		display: none;
 	}
 }

@@ -1,18 +1,36 @@
-.intro-para {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+.about-main-heading {
+	font-size: 3rem;
+	font-weight: 700;
 }
 
-.intro-para-2 {
-	margin-bottom: 1.5rem;
+.about-sub-heading {
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+.about-bio-1 {
+	margin: 1rem 0;
+}
+
+.about-bio-2 {
+	margin: 1rem 0;
+}
+
+.about-contact-heading {
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.about-contact-sub-container {
+	padding-left: 1rem;
 }
 
 @media (max-width: 720px) {
-	.about-heading {
-		font-size: var(--heading-size-3);
+	.about-main-heading {
+		font-size: 2rem;
 	}
 
-	.about-subheading {
-		font-size: var(--heading-size-5);
+	.about-sub-heading {
+		font-size: 1.5rem;
 	}
 }

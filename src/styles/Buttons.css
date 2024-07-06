@@ -1,0 +1,54 @@
+.buttons-container {
+	/* border: 1px solid red; */
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.large-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+
+	width: 12rem;
+
+	border: 2px solid var(--text-color-950);
+	border-radius: 5px;
+	padding: 0.5rem 2rem;
+	
+	font-weight: 500;
+}
+
+.resume-button {
+	border-color: var(--text-highlight-color);
+	/* color: var(--text-highlight-color); */
+}
+
+.resume-button:hover {
+	color: var(--text-color-950);
+	background-color: var(--text-highlight-color);
+}
+
+.github-button:hover {
+	color: black;
+	background-color: var(--text-color-950);
+}
+
+.linkedin-button {
+	border-color: var(--linked-blue);
+}
+
+.linkedin-button:hover {
+	background-color: var(--linked-blue);
+	color: white;
+}
+
+@media (max-width: 720px) {
+	.buttons-container {
+		flex-direction: column;
+		gap: 1rem;
+	}
+}

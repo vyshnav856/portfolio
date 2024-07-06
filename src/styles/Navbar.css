@@ -43,4 +43,8 @@
 	.navbar-ul {
 		width: 300px;
 	}
+
+	.navbar-container {
+		display: none;
+	}
 }

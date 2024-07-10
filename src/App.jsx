@@ -128,7 +128,7 @@ export default function App() {
 				</div>
 			</div>
 
-			<div className="achievements-container section-container">
+			<div id="achievements" className="achievements-container section-container">
 				<h3 className="achievements-main-heading section-heading">My Achievements</h3>
 				<p className="achievement-desc">
 					Achieved first prize in the RaneNSK design-a-thon held during IANC (Industry Academia Networking
@@ -138,6 +138,8 @@ export default function App() {
 					Certificate <Arrow />
 				</a>
 			</div>
+
+			<div className="bottom-padding"></div>
 
 		</div>
 		</>

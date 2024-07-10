@@ -1,6 +1,7 @@
 body {
-	width: 100dvw;
+	width: 90dvw;
 	height: 100dvh;
+	margin: 0 auto;
 
 	background-image: var(--background-gradient);
 	background-repeat: no-repeat;
@@ -56,6 +57,10 @@ body {
 .achievement-link:hover {
 	color: var(--text-highlight-color);
 	text-decoration: underline;
+}
+
+.bottom-padding {
+	height: 2rem;
 }
 
 /* Media queries */

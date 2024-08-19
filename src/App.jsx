@@ -116,8 +116,7 @@ export default function App() {
 					<h4 className="project-name">Taskmaster</h4>
 					<a target="_blank" href="https://github.com/vyshnav856/taskmaster" className="project-repo-link">GitHub repository <Arrow /></a>
 					<p className="project-desc">
-						Taskmaster is a ticket based work allocation app that can automatically assign work based on
-						developer and ticket properties.
+						Taskmaster is a ticket based work allocation app that allows managers to assign work tickets and workers to claim them.
 					</p>
 					<p className="project-tech">
 						<span className="highlight-bold">Technologies used: </span>
